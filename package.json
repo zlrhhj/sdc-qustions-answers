@@ -1,0 +1,23 @@
+{
+  "name": "sdc-liru-qa",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "server": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jest": "^29.3.0",
+    "newrelic": "^11.22.0",
+    "node": "^19.0.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "pg": "^8.8.0"
+  }
+}
